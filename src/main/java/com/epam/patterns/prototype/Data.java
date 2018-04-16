@@ -1,5 +1,7 @@
 package com.epam.patterns.prototype;
 
+import java.util.Objects;
+
 public class Data implements Cloneable {
     private String name;
     private int year;
@@ -29,7 +31,22 @@ public class Data implements Cloneable {
     }
 
     @Override
-    protected Data clone() throws CloneNotSupportedException {
+    public Data clone() throws CloneNotSupportedException {
         return (Data) super.clone();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Data data = (Data) o;
+        return year == data.year &&
+                Objects.equals(name, data.name);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(name, year);
     }
 }
