@@ -36,7 +36,8 @@ public class PatternsTest {
             list.add(arrayList.next());
         }
         Assert.assertEquals(list.size(), 4);
-        Assert.assertEquals(list, Arrays.asList(new Object[]{"1", "2", "3", "4"}));
+        Assert.assertEquals(list, Arrays.asList("1", "2", "3", "4"));
+
     }
 
     @Test
@@ -46,7 +47,7 @@ public class PatternsTest {
         data.setYear(1999);
         Data dataClone = null;
         try {
-            dataClone = (Data) data.clone();
+            dataClone = data.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
