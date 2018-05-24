@@ -1,6 +1,4 @@
-package com.epam.patterns.Iterator;
-
-import java.util.ArrayList;
+package com.epam.patterns.iterator;
 
 public interface Iterator {
      boolean hasNext();

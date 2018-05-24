@@ -1,4 +1,4 @@
-package com.epam.patterns.Iterator;
+package com.epam.patterns.iterator;
 
 public class OwnArrayList implements Iterator {
     private Object[] arr = {"1","2","3","4"};

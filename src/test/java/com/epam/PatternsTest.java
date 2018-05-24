@@ -1,7 +1,7 @@
 package com.epam;
 
 
-import com.epam.patterns.Iterator.OwnArrayList;
+import com.epam.patterns.iterator.OwnArrayList;
 import com.epam.patterns.flyWeight.DroidFactory;
 import com.epam.patterns.memento.Caretaker;
 import com.epam.patterns.memento.Droid;
