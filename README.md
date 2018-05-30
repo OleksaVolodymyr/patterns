@@ -15,6 +15,7 @@
 13.singleton<br>
 14.prototype<br>
 15.proxy<br>
-# Not GOF patterns implementation<br>
 
-1. nullObject<br>
+# Not GOF patterns implementation
+
+1.nullObject<br>
