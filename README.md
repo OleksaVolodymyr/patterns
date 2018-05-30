@@ -1,23 +1,20 @@
 # GOF patterns implementation
 
-1.iterator
-2.abstractfactory
-3.adapter
-4.bridge
-5.builder
-6.chainOfResponsibility
-7.composite
-8.decorator
-9.facade
-10.factorymethod
-11.flyWeight
-12.memento
-13.singleton
-14.prototype
-15.proxy
+1.iterator<br>
+2.abstractfactory<br>
+3.adapter<br>
+4.bridge<br>
+5.builder<br>
+6.chainOfResponsibility<br>
+7.composite<br>
+8.decorator<br>
+9.facade<br>
+10.factorymethod<br>
+11.flyWeight<br>
+12.memento<br>
+13.singleton<br>
+14.prototype<br>
+15.proxy<br>
+# Not GOF patterns implementation<br>
 
-
-
-#Not GOF patterns implementation
-
-1. nullObject
+1. nullObject<br>
