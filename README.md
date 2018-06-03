@@ -15,6 +15,10 @@
 13.singleton<br>
 14.prototype<br>
 15.proxy<br>
+16.visitor<br>
+17.state<br>
+18.strategy<br>
+19.template<br>
 
 # Not GOF patterns implementation
 
