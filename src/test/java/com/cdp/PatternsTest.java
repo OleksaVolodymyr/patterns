@@ -1,6 +1,7 @@
 package com.cdp;
 
 
+import com.cdp.listener.CustomTestListener;
 import com.cdp.patterns.flyWeight.DroidFactory;
 import com.cdp.patterns.iterator.OwnArrayList;
 import com.cdp.patterns.memento.Caretaker;
@@ -14,12 +15,14 @@ import com.cdp.patterns.strategy.OperationAdd;
 import com.cdp.patterns.strategy.OperationDivide;
 import com.cdp.patterns.strategy.OperationMultiply;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@Listeners({CustomTestListener.class})
 public class PatternsTest {
 
     @Test
@@ -74,7 +77,8 @@ public class PatternsTest {
     public void stateTest() {
         com.cdp.patterns.state.Droid droid = new com.cdp.patterns.state.Droid();
         State attack = new AttackState();
-        attack.doAction(droid);
+        droid.setState(attack);
+        // attack.doAction(droid);
         Assert.assertEquals(droid.getState().toString(), "AttackState");
         State defend = new DefendState();
         defend.doAction(droid);

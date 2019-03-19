@@ -8,6 +8,7 @@ import com.cdp.patterns.abstractfactory.model.WariorDroid;
 public class DroidSelector {
 	private Droid droid = null;
 
+
 	public Droid getDroid(DroidType droidType) {
 		switch (droidType) {
 		case ARCHER:

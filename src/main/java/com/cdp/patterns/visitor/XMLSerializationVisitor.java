@@ -13,7 +13,7 @@ public class XMLSerializationVisitor implements Visitor {
     }
 
     @Override
-    public String visitArcherDroid(ArcherDroid droid) {
+    public String visit(ArcherDroid droid) {
         return "<archerDroid>" + "\n" +
                 "    <name>" + droid.getName() + "</name>" + "\n" +
                 "    <damage>" + droid.getDamage() + "</damage>" + "\n" +
@@ -22,7 +22,7 @@ public class XMLSerializationVisitor implements Visitor {
     }
 
     @Override
-    public String visitWarriorDroid(WarriorDroid droid) {
+    public String visit(WarriorDroid droid) {
         return "<warriorDroid>" + "\n" +
                 "    <name>" + droid.getName() + "</name>" + "\n" +
                 "    <damage>" + droid.getDamage() + "</damage>" + "\n" +

@@ -43,6 +43,6 @@ public class ArcherDroid implements Droid {
 
     @Override
     public String accept(Visitor visitor) {
-        return visitor.visitArcherDroid(this);
+        return visitor.visit(this);
     }
 }

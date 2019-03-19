@@ -43,7 +43,7 @@ public class WarriorDroid implements Droid {
 
     @Override
     public String accept(Visitor visitor) {
-        return visitor.visitWarriorDroid(this);
+        return visitor.visit(this);
     }
 
 }

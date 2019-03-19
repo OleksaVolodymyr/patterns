@@ -2,9 +2,9 @@ package com.cdp.patterns.visitor;
 
 public interface Visitor {
 
-    String visitArcherDroid(ArcherDroid droid);
+    String visit(ArcherDroid droid);
 
-    String visitWarriorDroid(WarriorDroid droid);
+    String visit(WarriorDroid droid);
 
 
 }

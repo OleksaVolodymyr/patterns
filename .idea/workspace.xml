@@ -1,188 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="618e5ca2-01f3-42b6-b5ab-1eeb34c147ef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="618e5ca2-01f3-42b6-b5ab-1eeb34c147ef" name="Default" comment="fix tests, add gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/abstractfactory/enums/DroidType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/enums/DroidType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/abstractfactory/enums/MageDroidType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/enums/MageDroidType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/abstractfactory/factory/DroidFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/factory/DroidFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/abstractfactory/factory/RepublicFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/factory/RepublicFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/abstractfactory/factory/ResistanceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/factory/ResistanceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/abstractfactory/model/ArcherDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/model/ArcherDroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/abstractfactory/model/Droid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/model/Droid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/abstractfactory/model/MageDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/model/MageDroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/abstractfactory/model/MagicDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/model/MagicDroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/abstractfactory/model/PriestDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/model/PriestDroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/abstractfactory/model/WariorDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/model/WariorDroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/abstractfactory/selector/DroidSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/selector/DroidSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/abstractfactory/selector/MageDroidSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/selector/MageDroidSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/adapter/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/adapter/API.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/adapter/APIImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/adapter/APIImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/adapter/AdapterAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/adapter/AdapterAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/adapter/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/adapter/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/adapter/OldAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/adapter/OldAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/adapter/OldAPIImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/adapter/OldAPIImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/bridge/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/bridge/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/bridge/DBClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/bridge/DBClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/bridge/MySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/bridge/MySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/bridge/SQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/bridge/SQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/bridge/SQLServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/bridge/SQLServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/builder/Droid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/builder/Droid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/builder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/chainOfResponsibility/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/Currency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/chainOfResponsibility/DispenseChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/DispenseChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/chainOfResponsibility/Dollar10Dispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/Dollar10Dispenser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/chainOfResponsibility/Dollar20Dispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/Dollar20Dispenser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/chainOfResponsibility/Dollar50Dispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/Dollar50Dispenser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/chainOfResponsibility/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/composite/AbstractFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/composite/AbstractFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/composite/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/composite/Directory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/composite/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/composite/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/composite/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/composite/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/decorator/DanceDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/decorator/DanceDroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/decorator/Droid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/decorator/Droid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/decorator/DroidDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/decorator/DroidDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/facade/Ability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/facade/Ability.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/facade/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/facade/Armor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/facade/Droid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/facade/Droid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/facade/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/facade/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/factorymethod/enums/ParserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/factorymethod/enums/ParserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/factorymethod/factory/ParserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/factorymethod/factory/ParserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/factorymethod/implementation/CSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/factorymethod/implementation/CSVParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/factorymethod/implementation/XLSXParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/factorymethod/implementation/XLSXParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/factorymethod/implementation/XMLParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/factorymethod/implementation/XMLParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/factorymethod/model/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/factorymethod/model/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/flyWeight/DanceDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/flyWeight/DanceDroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/flyWeight/Droid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/flyWeight/Droid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/flyWeight/DroidFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/flyWeight/DroidFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/iterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/iterator/Iterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/iterator/OwnArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/iterator/OwnArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/memento/Caretaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/memento/Caretaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/memento/Droid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/memento/Droid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/memento/Memento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/memento/Memento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/nullObject/Empoyee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/nullObject/Empoyee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/nullObject/NonProgramer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/nullObject/NonProgramer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/nullObject/Programer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/nullObject/Programer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/prototype/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/prototype/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/proxy/Droid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/proxy/Droid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/proxy/WarriorDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/proxy/WarriorDroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/proxy/WarriorDroidProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/proxy/WarriorDroidProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/singleton/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/singleton/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/state/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/state/AttackState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/state/AttackState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/state/DefendState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/state/DefendState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/state/Droid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/state/Droid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/state/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/state/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/strategy/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/strategy/Calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/strategy/Calculate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/strategy/OperationAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/strategy/OperationAdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/strategy/OperationDivide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/strategy/OperationDivide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/strategy/OperationMultiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/strategy/OperationMultiply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/strategy/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/strategy/Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/template/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/template/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/template/BrickHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/template/BrickHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/template/HouseBuilderTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/template/HouseBuilderTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/template/WoodHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/template/WoodHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/visitor/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/visitor/ArcherDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/ArcherDroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/visitor/Droid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/Droid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/visitor/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/visitor/WarriorDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/WarriorDroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/patterns/visitor/XMLSerializationVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/XMLSerializationVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/PatternsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cdp/PatternsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/Iterator/Iterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/Iterator/OwnArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/abstractfactory/enums/DroidType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/abstractfactory/enums/MageDroidType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/abstractfactory/factory/DroidFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/abstractfactory/factory/RepublicFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/abstractfactory/factory/ResistanceFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/abstractfactory/model/ArcherDroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/abstractfactory/model/Droid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/abstractfactory/model/MageDroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/abstractfactory/model/MagicDroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/abstractfactory/model/PriestDroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/abstractfactory/model/WariorDroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/abstractfactory/selector/DroidSelector$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/abstractfactory/selector/DroidSelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/abstractfactory/selector/MageDroidSelector$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/abstractfactory/selector/MageDroidSelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/adapter/API.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/adapter/APIImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/adapter/AdapterAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/adapter/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/adapter/OldAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/adapter/OldAPIImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/bridge/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/bridge/DBClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/bridge/MySQL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/bridge/SQL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/bridge/SQLServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/builder/Droid$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/builder/Droid$DroidBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/builder/Droid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/builder/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/chainOfResponsibility/Currency.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/chainOfResponsibility/DispenseChain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/chainOfResponsibility/Dollar10Dispenser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/chainOfResponsibility/Dollar20Dispenser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/chainOfResponsibility/Dollar50Dispenser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/chainOfResponsibility/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/composite/AbstractFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/composite/Directory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/composite/File.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/composite/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/decorator/DanceDroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/decorator/Droid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/decorator/DroidDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/facade/Ability.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/facade/Armor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/facade/Droid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/facade/Weapon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/factorymethod/enums/ParserType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/factorymethod/factory/ParserFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/factorymethod/factory/ParserFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/factorymethod/implementation/CSVParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/factorymethod/implementation/XLSXParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/factorymethod/implementation/XMLParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/factorymethod/model/Parser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/flyWeight/DanceDroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/flyWeight/Droid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/flyWeight/DroidFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/memento/Caretaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/memento/Droid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/memento/Memento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/nullObject/Empoyee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/nullObject/NonProgramer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/nullObject/Programer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/prototype/Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/proxy/Droid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/proxy/WarriorDroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/proxy/WarriorDroidProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/singleton/Property.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/state/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/state/AttackState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/state/DefendState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/state/Droid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/state/State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/strategy/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/strategy/Calculate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/strategy/OperationAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/strategy/OperationDivide.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/strategy/OperationMultiply.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/strategy/Strategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/template/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/template/BrickHouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/template/HouseBuilderTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/template/WoodHouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/visitor/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/visitor/ArcherDroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/visitor/Droid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/visitor/Visitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/visitor/WarriorDroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/patterns/visitor/XMLSerializationVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/PatternsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/selector/DroidSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/selector/DroidSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/ArcherDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/ArcherDroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/WarriorDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/WarriorDroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/XMLSerializationVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/XMLSerializationVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cdp/PatternsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cdp/PatternsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -196,30 +23,44 @@
     <session id="1071063289">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="31" />
+          <entry key="java" value="163" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="168" />
           <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="127" />
+          <entry key="java" value="147" />
+          <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="127" />
+          <entry key="JAVA" value="155" />
+          <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
     </session>
@@ -227,25 +68,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cdp/PatternsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/state/AttackState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="878">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="85">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/facade/Armor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/composite/AbstractFile.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/strategy/Strategy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
@@ -254,43 +86,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/composite/Directory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/strategy/Calculate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/composite/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/composite/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="170">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/builder/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cdp/PatternsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/state/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/prototype/Data.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/iterator/OwnArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -299,19 +131,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/builder/Droid.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/iterator/Iterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/facade/Ability.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/factory/ResistanceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -343,10 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/patterns/decorator/DroidDecorator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/patterns/decorator/DanceDroid.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/patterns/Facade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/patterns/facade/Armor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/patterns/facade/Weapon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/patterns/facade/Ability.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/patterns/facade/Droid.java" />
@@ -394,6 +222,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/epam/patterns/state/DefendState.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/patterns/strategy/Calculate.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/PatternsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/Visitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/selector/DroidSelector.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cdp/PatternsTest.java" />
       </list>
     </option>
   </component>
@@ -405,10 +237,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="192" />
-    <option name="y" value="93" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -421,8 +253,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -460,32 +290,44 @@
               <item name="patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cdp" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cdp" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="module&#10;repository&#10;directory" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543251900376" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552991383985" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ws/ws/CDP" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
@@ -509,7 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="TestNG.PatternsTest.stateTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -566,6 +408,23 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatternsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cdp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cdp" />
+      <option name="MAIN_CLASS_NAME" value="com.cdp.PatternsTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -629,16 +488,16 @@
       <item itemvalue="Application.App" />
       <item itemvalue="TestNG.PatternsTest.stateTest" />
       <item itemvalue="TestNG.PatternsTest.strategyTest" />
-      <item itemvalue="Application.App (1)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="TestNG.PatternsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.App (1)" />
-        <item itemvalue="TestNG.PatternsTest.strategyTest" />
         <item itemvalue="TestNG.PatternsTest.stateTest" />
+        <item itemvalue="TestNG.PatternsTest" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.PatternsTest.strategyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -660,16 +519,24 @@
       <option name="project" value="LOCAL" />
       <updated>1523887615751</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix tests, add gitignore">
+      <created>1543251845985</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543251845985</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix tests, add gitignore">
+      <created>1543251906300</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543251906300</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PatternsTest - 2018.04.13 at 11h 54m 08s.xml">
-      <configuration name="PatternsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PatternsTest - 2018.04.13 at 11h 57m 57s.xml">
-      <configuration name="PatternsTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="PatternsTest_testPrototype - 2018.04.13 at 11h 58m 48s.xml">
       <configuration name="PatternsTest.testPrototype" configurationId="TestNG" />
     </history-entry>
@@ -694,11 +561,18 @@
     <history-entry file="PatternsTest_strategyTest - 2018.11.26 at 14h 45m 42s.xml">
       <configuration name="PatternsTest.strategyTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PatternsTest - 2019.03.18 at 14h 56m 38s.xml">
+      <configuration name="PatternsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PatternsTest_stateTest - 2019.03.18 at 14h 58m 37s.xml">
+      <configuration name="PatternsTest.stateTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26545843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -708,15 +582,17 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32837406" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.3275488" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.4924078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5005208" side_tool="true" weight="0.32837406" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32943678" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32943678" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.22668113" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
+      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="SonarLint" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -766,228 +642,63 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add 5 new patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 5 new patterns" />
+    <MESSAGE value="fix tests, add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix tests, add gitignore" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/state/State.java</url>
+          <line>4</line>
+          <properties class="com.cdp.patterns.state.State" method="doAction">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/bridge/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/nullObject/NonProgramer.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4979">
-          <caret line="443" column="23" selection-start-line="443" selection-start-column="23" selection-end-line="443" selection-end-column="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/nullObject/Programer.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/memento/Droid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/memento/Caretaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/memento/Memento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5918">
-          <caret line="1441" column="54" lean-forward="true" selection-start-line="1441" selection-start-column="54" selection-end-line="1441" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="302" column="24" selection-start-line="302" selection-start-column="19" selection-end-line="302" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/Currency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/DispenseChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/Dollar50Dispenser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/Dollar20Dispenser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/Dollar10Dispenser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-331">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/ArcherDroid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/Droid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/Visitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/XMLSerializationVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/patterns/state/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="76" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="12" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/state/Droid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/state/AttackState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/state/DefendState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/singleton/Property.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/patterns/strategy/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/strategy/Strategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/strategy/OperationAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/strategy/Calculate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/strategy/OperationDivide.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/template/App.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -996,118 +707,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/template/BrickHouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/template/WoodHouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/template/HouseBuilderTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/adapter/API.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/adapter/APIImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/adapter/OldAPIImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/adapter/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/facade/Weapon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/facade/Droid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/facade/Ability.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/facade/Armor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/composite/AbstractFile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/decorator/Droid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/composite/Directory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/composite/File.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/decorator/DanceDroid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cdp/PatternsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/decorator/DroidDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="878">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="204">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -1120,22 +737,294 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/chainOfResponsibility/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="306">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/builder/Droid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/WarriorDroid.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/builder/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/flyWeight/Droid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/flyWeight/DanceDroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/flyWeight/DroidFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/singleton/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/proxy/Droid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/proxy/WarriorDroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/proxy/WarriorDroidProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/bridge/SQLServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/bridge/MySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/bridge/SQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/bridge/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/bridge/DBClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/ArcherDroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/Droid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/template/BrickHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/template/HouseBuilderTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/visitor/XMLSerializationVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/template/WoodHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/factory/DroidFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/selector/DroidSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/selector/MageDroidSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/factory/RepublicFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/builder/Droid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/state/DefendState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/strategy/OperationMultiply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/strategy/OperationAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/state/Droid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/state/AttackState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/strategy/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/strategy/Calculate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/prototype/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/iterator/OwnArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/iterator/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdp/patterns/abstractfactory/factory/ResistanceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cdp/PatternsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1204,7 +1093,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: junit:junit:3.8.1</last-edited>
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
