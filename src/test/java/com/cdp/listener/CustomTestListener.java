@@ -19,8 +19,8 @@ public class CustomTestListener implements ITestListener, IInvokedMethodListener
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        LOG.info(String.format("Test : %s , Method : %s passed successful in : %s  ", result.getName(),
-                result.getMethod(), new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(result.getEndMillis())));
+        LOG.info("Test : {}, Method : {} passed successful in : {}  ", result.getName(),
+                result.getMethod(), new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(result.getEndMillis()));
     }
 
     @Override
